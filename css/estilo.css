@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    }
+    
+    @import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+    
+    /* pagina de inicio */
+    #navegador {
+    text-align: left;
+    background-image: linear-gradient(to right, #B15E6C, #CF8BA9);
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    body {
+        background-color: #B15E6C;
+    }
+    
+    .barraInicio {
+    list-style-type: none;
+    display: inline-block;
+    text-align: right;
+    grid-area: header;
+    }
+    
+    .textoPrincipal {
+    text-align: center;
+    }
+    
+    .lista {
+    text-align: center;
+    list-style-type: none;
+    }
+    
+    footer {
+    background-image: linear-gradient(to right, #B15E6C, #CF8BA9);
+    text-align: center;
+    grid-area: pie;
+    }
+    
+    /* pagina productos destacados */
+    
+    .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);}
+    
+    .hamburguesa-a {
+    justify-items: start;
+    }
+    
+    .hamburguesa-b {
+    justify-items: center;
+    }
+    
+    .hamburguesa-c {
+    justify-items: end;
+    }
+    
+    /* pagina todas las colecciones */
+    
+    /* pagina  nuestra historia */
+    
+    .container-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    }
+    
+    .video {
+    justify-items: start;
+    }
+    
+    .textoVideo {
+    justify-items: end;
+    }
+    
+    /* pagina contactanos */
+    
+    .formulario {
+    border: solid 5px;
+    }
+    
