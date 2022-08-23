@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
     <link rel="stylesheet" href="../css/estilo.css" />
     <title>Productos destacados</title>
 </head>
@@ -28,16 +29,16 @@
 
     <main>
     <h3>Nuestros productos destacados</h3>
-    <section class="container">
-        <div class="hamburguesa-a">
+    <section class="row container-fluid">
+        <div class="card_active col-md-4">
         <img src="../img/img1.jpg" height="200px" alt="Hamburguesa 1" />
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
         </div>
-        <div class="hamburguesa-b">
+        <div class="card--medium col-md-4">
         <img src="../img/img2.jpg" height="200px" alt="Hamburguesa 2" />
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
-        <div class="hamburguesa-c">
+        <div class="card--last col-md-4">
         <img src="../img/img3.jpg" height="200px" alt="Hamburguesa 3" />
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
@@ -48,5 +49,6 @@
     <h4>Copyright Julieta - 2022</h4>
     <h4>Todos los derechos reservados.</h4>
     </footer>
+    <script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
