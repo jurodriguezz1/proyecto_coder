@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-    "build-css": "node-sass --include-path scss scss/index.scss css/translated.css"
     },
   "repository": {
     "type": "git",
