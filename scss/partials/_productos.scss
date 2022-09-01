@@ -1,0 +1,19 @@
+    /* pagina productos destacados */
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+            .hamburguesa-a {
+            justify-items: start;
+            }
+        
+            .hamburguesa-b {
+            justify-items: center;
+            }
+        
+            .hamburguesa-c {
+            justify-items: end;
+            }
+        
+        }
+        
