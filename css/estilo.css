@@ -1,10 +1,9 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
-    }
-    
-    @import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+    padding: 0px;
+    margin: 0px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
     
 
     body {
@@ -13,53 +12,26 @@
     
     /* pagina de inicio */
 
-/* #navegador {
-    text-align: left;
-    background-image: linear-gradient(to right, #B15E6C, #CF8BA9);
-    display: flex;
-    justify-content: space-between;
-    }
-    
-    .barraInicio {
-    list-style-type: none;
-    display: inline-block;
-    text-align: right;
-    grid-area: header;
-    } */
-    
     .ubicacion {
         text-align: center;
     }
-
-    .tituloFranquicias {
-        text-align: center;
-    }
-
-    .franquicias {
-        display: grid;
-        grid-template-columns: repeat(7, 7fr);
-        text-align: center;
-    }
-
 
     .textoPrincipal {
         text-align: center;
         }
         
-        .lista {
-        text-align: center;
-        list-style-type: none;
-        }
-        
         footer {
         background-image: linear-gradient(to right, #B15E6C, #CF8BA9);
-        text-align: center;
         grid-area: pie;
+        text-align: center;
         }
 
     /*pagina productos destacados */
     
-
+.aviso {
+    text-align: center;
+    border: solid 8px;
+}
         
 .container {
     display: grid;
@@ -78,24 +50,26 @@
     justify-items: end;
     }
     
-    /* pagina todas las colecciones */
+    /* pagina franquicias */
+
+    .tituloFranquicias {
+        text-align: center;
+    }
+
+    .franquicias {
+        display: grid;
+        grid-template-columns: repeat(7, 7fr);
+        text-align: center;
+    }
+
     
     /* pagina  nuestra historia */
-    
-    .container-2 {
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    }
-    
     .video {
-    justify-items: start;
-    }
+        text-align: center;
+        }
+
     
-    .textoVideo {
-    justify-items: end;
-    }
-    
-    /* pagina contactanos */
+    /* pagina trabaja con nosotros y formulario de franquicias*/
     
     .formulario {
     border: solid 5px;
