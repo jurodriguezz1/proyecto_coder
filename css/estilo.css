@@ -27,6 +27,21 @@
     grid-area: header;
     } */
     
+    .ubicacion {
+        text-align: center;
+    }
+
+    .tituloFranquicias {
+        text-align: center;
+    }
+
+    .franquicias {
+        display: grid;
+        grid-template-columns: repeat(7, 7fr);
+        text-align: center;
+    }
+
+
     .textoPrincipal {
         text-align: center;
         }
@@ -44,7 +59,7 @@
 
     /*pagina productos destacados */
     
- 
+
         
 .container {
     display: grid;
